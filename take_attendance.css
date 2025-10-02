@@ -1,0 +1,71 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff; /* Light blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #003366;
+            font-size: 32px;
+            margin-top: 30px;
+        }
+        .container {
+            margin: 0 auto;
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .user-list {
+            margin-top: 20px;
+        }
+        .user-item {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .user-item label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .user-item input[type="radio"] {
+            margin: 5px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #003366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #0055cc;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6347; /* Red color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .back-button:hover {
+            background-color: #e9533a;
+        }
+        .btn-danger{
+            margin-left: 60px;
+        }
+  

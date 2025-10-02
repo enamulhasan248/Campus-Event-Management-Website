@@ -1,0 +1,102 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Light blue gradient */
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-box {
+      background-color: #ffffff;
+      padding: 40px 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      font-size: 28px;
+      font-weight: 600;
+      color: #1e3a8a; /* Dark blue color */
+    }
+
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: 500;
+      margin-bottom: 6px;
+      display: block;
+      color: #1e3a8a; /* Dark blue for labels */
+    }
+
+    input {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 15px;
+      margin-bottom: 18px;
+      border: 1px solid #ccd6f6;
+      border-radius: 8px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #6ec1e4; /* Soft blue */
+    }
+
+    button {
+      background-color: #1e3a8a; /* Dark blue */
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 10px;
+      border: none;
+      border-radius: 30px;
+      width: 100%;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #2563eb; /* Lighter blue on hover */
+    }
+
+    .error-message {
+      background-color: #f8d7da;
+      color: #842029;
+      border: 1px solid #f5c2c7;
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .register-link {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    .register-link a {
+      color: #1e3a8a; /* Dark blue for link */
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .register-link a:hover {
+      text-decoration: underline;
+    }
